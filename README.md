@@ -37,9 +37,17 @@ Agregamos
     "block-insecure": false
 },
 
-Luego instalamos las librerías actuales
+Luego instalamos las librerías para PHP 7.4
 composer require firebase/php-jwt:"5.5.1"
 composer require barryvdh/laravel-dompdf:"^1.0"
+
+Para PHP 8.0
+"require": {
+    "php": "^7.3|^8.0",
+    "barryvdh/laravel-dompdf": "^2.2",
+    "firebase/php-jwt": "^6.11",
+    "laravel/lumen-framework": "^8.3.1"
+},
 
 
 ## Ejecutar Local
