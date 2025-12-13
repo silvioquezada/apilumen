@@ -32,7 +32,7 @@ composer create-project --prefer-dist laravel/lumen:8.x apilumen
 En la consola PowerShell o CMD desactivamos la auditoria porque son librerias antiguas
 composer config audit.block-insecure false
 
-Agregamos
+Agregamos opcional no es necesario sin funciona sin eso
 "audit": {
     "block-insecure": false
 },
